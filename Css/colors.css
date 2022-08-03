@@ -1,8 +1,9 @@
 :root {
     --color-blue: hsl(245, 75%, 52%);
+    --color-bright-blue: hsl(218, 80%, 60%);
+    --color-light-blue: hsl(225, 100%, 81%);
     --color-pale-blue: hsl(225, 100%, 94%);
-    --color-bright-blue: hsl(225, 100%, 98%);
     --color-very-pale-blue: hsl(225, 100%, 98%);
-    --color-desaturated-blue: hsl(224, 23%, 55%);
+    --color-desaturated-blue: hsl(225, 42%, 47%);
     --color-dark-blue: hsl(223, 47%, 23%);
 }

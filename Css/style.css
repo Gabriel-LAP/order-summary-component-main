@@ -4,6 +4,7 @@ body {
     align-items: center;
     flex-direction: column;
     background: var(--color-very-pale-blue);
+
 }
 
 .container {
@@ -14,24 +15,30 @@ body {
     width: 100%;
     background: var(--color-pale-blue) url("/images/pattern-background-desktop.svg") no-repeat right top fixed;
     background-size: cover;
+
 }
 
 .order-sumary {
     position: relative;
-    top: -1rem;
+    top: -2rem;
     width: 27.88rem;
-    height: 41.5rem;
-    margin: 4.25rem auto 2rem auto;
+    height: 43rem;
+    margin: 4.25rem auto 0.3rem auto;
     border-radius: 1.5rem;
     overflow: hidden;
     background-color: #fff;
     box-shadow: 0px 18px 23px -5px rgba(0, 0, 0, 0.23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .order-sumary p {
     width: 20rem;
     text-align: center;
     color: var(--color-desaturated-blue);
+
 }
 
 .sumary-body {
@@ -42,6 +49,7 @@ body {
     align-items: center;
     flex-direction: column;
     row-gap: 1.5rem;
+
 }
 
 .sumary-body h1 {
@@ -49,10 +57,12 @@ body {
     color: var(--color-dark-blue);
     font-size: 1.8rem;
     font-weight: bold;
+
 }
 
 .sumary-body p {
     line-height: 1.5rem;
+
 }
 
 
@@ -65,36 +75,43 @@ body {
     color: var(--color-dark-blue);
     display: flex;
     align-items: center;
+
 }
 
 .order-sumary-plan img {
     height: 3rem;
+
 }
 
-.order-summary-plan-content {
-    width: 6rem;
+.order-sumary-plan-content {
+    width: 7rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin: 0 6rem 0 1.5rem;
+    margin: 0 5rem 0 1.5rem;
+
 }
 
 .order-sumary-plan h2, a {
     font-weight: bold;
 
+
 }
 
 .order-sumary-plan a:hover {
     color: var(--color-desaturated-blue);
+
 }
 
 .order-sumary-plan span {
     color: var(--color-desaturated-blue);
+
 }
 
 .payment-button {
     width: 22.4rem;
     height: 3.4rem;
+    margin: 1.7rem 0 1.7rem 0;
     font-size: 1rem;
     font-weight: bold;
     background: var(--color-blue);
@@ -102,10 +119,13 @@ body {
     border: none;
     border-radius: 0.8rem;
     box-shadow: 0px 18px 23px -5px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+
 }
 
 .payment-button:hover {
     background: var(--color-desaturated-blue);
+
 }
 
 .cancel-button {
@@ -114,21 +134,98 @@ body {
     background: none;
     border: none;
     color: var(--color-desaturated-blue);
+    cursor: pointer;
+
 }
 
 .cancel-button:hover {
     color: var(--color-dark-blue);
+
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
     margin-bottom: 1rem;
+
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+
 }
+
+.opaque-container {
+    display: none;
+
+}
+
+.close-btn {
+    position: relative;
+    left: 19rem;
+    bottom: 9.9rem;
+    cursor: pointer;
+
+}
+
+.plans {
+    width: 17rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem 0;
+    background: #fff;
+    border-radius: 0.8rem;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
+.plans h1 {
+    font-size: 1.6rem;
+    margin: 1rem 0 1rem 0;
+
+}
+
+.plans button {
+    width: 13rem;
+    height: 4rem;
+    border-radius: 0.8rem;
+    border: 1px var(--color-dark-blue) solid;
+    background: var(--color-pale-blue);
+    cursor: pointer;
+    box-shadow: -2px 3px 0px var(--color-dark-blue);
+    margin-bottom: 0.3rem;
+
+}
+
+.plans button:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+
+}
+
+.plans button:hover {
+    background: var(--color-light-blue);
+
+}
+
+.plans h2 {
+    color: var(--color-dark-blue);
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+
+}
+
+.plan span {
+    color: var(--color-desaturated-blue);
+
+}
+
+
+
 
 @media (max-width: 376px) {
     .container {
@@ -174,7 +271,7 @@ body {
         width: auto;
     }
 
-    .order-summary-plan-content {
+    .order-sumary-plan-content {
         width: 6rem;
         margin-right: 1.8rem;
         margin-left: 1.2rem;
