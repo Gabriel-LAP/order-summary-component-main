@@ -1,4 +1,4 @@
-const $planContent = document.querySelector('.order-sumary-plan-content').children
+const $planContent = document.querySelector('.order-summary-plan-content').children
 
 const $link = document.querySelector('.change-link')
 

@@ -13,12 +13,12 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background: var(--color-pale-blue) url("/images/pattern-background-desktop.svg") no-repeat right top fixed;
+    background: var(--color-pale-blue) url("images/pattern-background-desktop.svg") no-repeat right top fixed;
     background-size: cover;
 
 }
 
-.order-sumary {
+.order-summary {
     position: relative;
     top: -2rem;
     width: 27.88rem;
@@ -34,14 +34,14 @@ body {
 
 }
 
-.order-sumary p {
+.order-summary p {
     width: 20rem;
     text-align: center;
     color: var(--color-desaturated-blue);
 
 }
 
-.sumary-body {
+.summary-body {
     width: 27.88rem;
     margin-top: 1.4rem;
     display: flex;
@@ -52,7 +52,7 @@ body {
 
 }
 
-.sumary-body h1 {
+.summary-body h1 {
     margin-top: 2rem;
     color: var(--color-dark-blue);
     font-size: 1.8rem;
@@ -60,13 +60,13 @@ body {
 
 }
 
-.sumary-body p {
+.summary-body p {
     line-height: 1.5rem;
 
 }
 
 
-.order-sumary-plan {
+.order-summary-plan {
     width: 20rem;
     height: 3.5rem;
     background-color: var(--color-very-pale-blue);
@@ -78,12 +78,12 @@ body {
 
 }
 
-.order-sumary-plan img {
+.order-summary-plan img {
     height: 3rem;
 
 }
 
-.order-sumary-plan-content {
+.order-summary-plan-content {
     width: 7rem;
     display: flex;
     flex-direction: column;
@@ -92,18 +92,18 @@ body {
 
 }
 
-.order-sumary-plan h2, a {
+.order-summary-plan h2, a {
     font-weight: bold;
 
 
 }
 
-.order-sumary-plan a:hover {
+.order-summary-plan a:hover {
     color: var(--color-desaturated-blue);
 
 }
 
-.order-sumary-plan span {
+.order-summary-plan span {
     color: var(--color-desaturated-blue);
 
 }
@@ -233,22 +233,22 @@ body {
 
     }
 
-    .order-sumary {
+    .order-summary {
         width: 20.5rem;
         height: 38rem;
         margin-bottom: 0.2rem;
         top: -2rem;
     }
 
-    .order-sumary img {
+    .order-summary img {
         width: 100%;
     }
 
-    .order-sumary p {
+    .order-summary p {
         line-height: 1.5rem;
     }
 
-    .sumary-body {
+    .summary-body {
         width: 20.5rem;
     }
 
@@ -257,21 +257,21 @@ body {
         max-height: 100%;
     }
 
-    .sumary-body p {
+    .summary-body p {
         width: 17rem;
     }
 
-    .order-sumary-plan {
+    .order-summary-plan {
         width: 16rem;
         font-size: 0.9rem;
 
     }
 
-    .order-sumary-plan img {
+    .order-summary-plan img {
         width: auto;
     }
 
-    .order-sumary-plan-content {
+    .order-summary-plan-content {
         width: 6rem;
         margin-right: 1.8rem;
         margin-left: 1.2rem;
